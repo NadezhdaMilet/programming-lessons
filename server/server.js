@@ -8,6 +8,7 @@ const requestHandler = (request, response) => {
         response.write("<h2>About</h2>");
     } else if (request.url == "/contact") {
         response.write("<h2>Contacts</h2>");
+
     } else if (request.url == "/images/1") {
         let content = fs.readFileSync("1.jpg");
         response.writeHead(200, {
