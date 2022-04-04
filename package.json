@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "programming-lessons",
+  "description": "",
+  "version": "1.0.0",
+  "main": "3.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadezhdaMilet/programming-lessons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadezhdaMilet/programming-lessons/issues"
+  },
+  "homepage": "https://github.com/NadezhdaMilet/programming-lessons#readme"
+}
