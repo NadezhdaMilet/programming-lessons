@@ -2,7 +2,7 @@
 const fs = require('fs');
 const axios = require('axios');
 let Nadya = new Promise(async function (resolve, reject) {
-    async function dowload() {
+    function dowload() {
         axios.get("https://jsonplaceholder.typicode.com/todos").then(
                 response => {
                     const a = response.data;
@@ -13,6 +13,7 @@ let Nadya = new Promise(async function (resolve, reject) {
                     fs.writeFile('todos1.json', json, function (err) {
                         if (err) return console.log(err);
                         console.log('json file has created');
+                        resolve('json файл создан')
 
                     });
                 }
