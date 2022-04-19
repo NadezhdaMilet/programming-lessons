@@ -1,4 +1,4 @@
-//Милетенко Н.И.
+//Милетенко Н.И. 904 взвод
 const fs = require("fs");
 const axios = require('axios');
 
@@ -60,6 +60,7 @@ axios.get('https://http.cat/207', {
     })
 
     .catch(function (error) {
+        // handle error     
         console.log(error);
     })
 
