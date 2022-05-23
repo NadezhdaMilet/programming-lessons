@@ -1,7 +1,7 @@
 let chislo=500; //number
 console.log(typeof chislo,chislo);
 
-let a='Nadya'; //string
+let a='Nadyaa'; //string
 console.log(typeof a,a);
 
 let proverka=true; //boolean
